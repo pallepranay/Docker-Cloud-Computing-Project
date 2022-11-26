@@ -7,7 +7,7 @@ const express = require('express')
 const app = express()
 
 const mongoose = require('mongoose')
-let url="mongodb://pranay5454:shiva1234@cluster0-shard-00-00.1kluw.mongodb.net:27017,cluster0-shard-00-01.1kluw.mongodb.net:27017,cluster0-shard-00-02.1kluw.mongodb.net:27017/?ssl=true&replicaSet=atlas-10j0ma-shard-0&authSource=admin&retryWrites=true&w=majority";
+let url="mongodb://<link>";
 
 const connectionParams={
     useNewUrlParser: true,
