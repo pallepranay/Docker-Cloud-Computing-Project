@@ -5,7 +5,7 @@
 const express=require("express");
 const mongoose = require("mongoose");
 const app = express();
-const url = "mongodb://pranay5454:shiva1234@cluster0-shard-00-00.1kluw.mongodb.net:27017,cluster0-shard-00-01.1kluw.mongodb.net:27017,cluster0-shard-00-02.1kluw.mongodb.net:27017/?ssl=true&replicaSet=atlas-10j0ma-shard-0&authSource=admin&retryWrites=true&w=majority";
+const url = "mongodb://<link>";
 
 /* --------------------------------- */
 
